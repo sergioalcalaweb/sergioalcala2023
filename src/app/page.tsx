@@ -1,7 +1,7 @@
-import About from "./components/about";
-import Experience from "./components/experience";
-import Header from "./components/header";
-import Skills from "./components/skills";
+import About from "../components/about";
+import Experience from "../components/experience";
+import Header from "../components/header";
+import Skills from "../components/skills";
 
 export default function Home() {
   return (

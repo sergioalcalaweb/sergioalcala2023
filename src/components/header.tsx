@@ -1,6 +1,6 @@
 import Nav from "./nav";
 import Image  from 'next/image';
-import ProfileIamge from '../../../public/images/profile.jpeg';
+import ProfileIamge from '../../public/images/profile.jpeg';
 import Contact from "./contact";
 
 const Header = () => {
