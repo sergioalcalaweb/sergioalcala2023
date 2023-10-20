@@ -10,7 +10,7 @@ const About = () => {
         <h2 className="lg:sr-only">About</h2>
       </div>
       <p>
-        Experienced web developer with over 11 years of experience in
+        Experienced Software Engineer with over 11 years of experience in
         cutting-edge web technologies. Specializing in creating{" "}
         <strong className="text-slate-200 font-bold">
           exceptional user experiences
@@ -35,9 +35,9 @@ const About = () => {
         .
       </p>
       <p>
-        In my free times usually enjoy watch movies in the cinema with my wife
-        and two childs, play video games on my PS4 and watch anime (One Piece
-        fan here <span>😀</span>).
+        In my free times usually enjoy watch movies in the cinema with my
+        family, play video games and watch anime (One Piece fan here{" "}
+        <span>😀</span>).
       </p>
     </section>
   )
