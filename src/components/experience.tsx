@@ -177,7 +177,7 @@ const Experience = () => {
               </div>
               <p>
                 Led successful migration of Delphi-based legacy system to modern
-                AngularJS web application, enhancing efficiency and user
+                Angular web application, enhancing efficiency and user
                 experience. Implemented robust API using local IIS server to
                 integrate SQL Server database, improving data management.
                 Leveraged cutting-edge web technologies to develop highly
