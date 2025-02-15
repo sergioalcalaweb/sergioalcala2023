@@ -58,7 +58,7 @@ const Experience = () => {
             <div className="group flex flex-col gap-3 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 relative transition-all">
               <div className="flex flex-col lg:flex-row justify-between items-baseline gap-3 group-hover:text-yellow-500">
                 <h3 className="text-xl font-semibold">
-                  Senior Front End Enginee - Globaltranz
+                  Senior Front End Engineer - Globaltranz
                 </h3>
                 <div className="text-xl font-thin">2022 - 2023</div>
               </div>
