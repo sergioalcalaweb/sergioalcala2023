@@ -6,7 +6,7 @@ const Contact = () => {
       <li className="group">
         <Link
           className="opacity-50 group-hover:opacity-95"
-          href="https://twitter.com/checoipn"
+          href="https://twitter.com/sergioalcalaweb"
           title="twitter"
           target="_blank"
         >
