@@ -1,7 +1,7 @@
-import Nav from "./nav";
-import Image  from 'next/image';
-import ProfileIamge from '../../public/images/profile.jpeg';
-import Contact from "./contact";
+import Nav from "./nav"
+import Image from "next/image"
+import ProfileIamge from "../../public/images/profile.jpeg"
+import Contact from "./contact"
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
         />
         <div>
           <h1 className="text-4xl mb-2">Sergio Alcala</h1>
-          <h2 className="text-2xl">Web developer</h2>
+          <h2 className="text-2xl">Software Engineer</h2>
         </div>
         <p className="lg:max-w-xs text-slate-400">
           Passionate in create experiences in each application that i build
@@ -26,8 +26,7 @@ const Header = () => {
       </div>
       <Contact />
     </header>
-  );
+  )
 }
- 
-export default Header;
 
+export default Header
