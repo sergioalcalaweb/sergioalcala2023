@@ -75,5 +75,10 @@
     "programmingLanguages": "Lenguajes de Programación",
     "librariesFrameworks": "Librerías y Frameworks",
     "toolsPlatforms": "Herramientas y Plataformas"
+  },
+  "notFound": {
+    "title": "Esta página zarpó fuera del mapa",
+    "message": "Ni siquiera Luffy pudo encontrar esta página en el Grand Line; debe estar escondida en otra isla. Volvamos a casa.",
+    "back": "Volver al inicio"
   }
 }

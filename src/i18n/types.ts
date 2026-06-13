@@ -40,4 +40,9 @@ export type Dictionary = {
     librariesFrameworks: string
     toolsPlatforms: string
   }
+  notFound: {
+    title: string
+    message: string
+    back: string
+  }
 }

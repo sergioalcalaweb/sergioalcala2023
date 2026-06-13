@@ -75,5 +75,10 @@
     "programmingLanguages": "Programming Languages",
     "librariesFrameworks": "Libraries & Frameworks",
     "toolsPlatforms": "Tools & Platforms"
+  },
+  "notFound": {
+    "title": "This page sailed off the map",
+    "message": "Even Luffy couldn't find this page on the Grand Line — it must be hiding on another island. Let's set sail back home.",
+    "back": "Back to home"
   }
 }
