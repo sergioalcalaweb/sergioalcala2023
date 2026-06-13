@@ -1,11 +1,17 @@
+"use client"
+
+import { useTranslation } from "@/i18n/LanguageProvider"
+
 const Skills = () => {
-  return ( 
-    <section data-section id="skills" aria-label="My Skills" className="text-slate-300 text-lg flex flex-col gap-3 mb-24 scroll-mt-24">
+  const { t } = useTranslation()
+
+  return (
+    <section data-section id="skills" aria-label={t.skills.title} className="text-slate-300 text-lg flex flex-col gap-3 mb-24 scroll-mt-24">
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-gradient-to-r from-slate-800 to-gray-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="lg:sr-only">Skills</h2>
+        <h2 className="lg:sr-only">{t.skills.title}</h2>
       </div>
       <div className="mb-5">
-        <h3>Programming Languages</h3>
+        <h3>{t.skills.programmingLanguages}</h3>
       </div>
       <ul className="flex flex-wrap group/tech gap-5 items-center">
         <li className="w-1/4 group transition-all">
@@ -106,7 +112,7 @@ const Skills = () => {
         </li>
       </ul>
       <div className="mb-5">
-        <h3>Libraries & Frameworks</h3>
+        <h3>{t.skills.librariesFrameworks}</h3>
       </div>
       <ul className="flex flex-wrap group/tech gap-5 items-center">
       <li className="w-1/4 group transition-all">
@@ -171,7 +177,7 @@ const Skills = () => {
                 fill="currentColor"
               />
             </svg>
-            <figcaption className="opacity-0 text-center group-hover:opacity-90 mt-3 text-sm">Taildwind css</figcaption>
+            <figcaption className="opacity-0 text-center group-hover:opacity-90 mt-3 text-sm">Tailwind CSS</figcaption>
           </figure>
         </li>
         <li className="w-1/4 group transition-all">
@@ -224,7 +230,7 @@ const Skills = () => {
         </li>
       </ul>
       <div className="mb-5">
-        <h3>Tools & Platforms</h3>
+        <h3>{t.skills.toolsPlatforms}</h3>
       </div>
       <ul className="flex flex-wrap group/tech gap-5 items-center">
         <li className="w-1/4 group transition-all">

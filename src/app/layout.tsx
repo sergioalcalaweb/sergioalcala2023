@@ -2,6 +2,7 @@ import "./globals.css"
 import { Lato } from "next/font/google"
 import { Metadata, Viewport } from "next"
 import { siteConfig } from "@/config/site"
+import { LanguageProvider } from "@/i18n/LanguageProvider"
 
 const inter = Lato({ subsets: ["latin"], weight: "300" })
 
@@ -49,7 +50,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gradient-to-r from-slate-800 to-gray-900 text-white font-light`}
       >
-        {children}
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   )

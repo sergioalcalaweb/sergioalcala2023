@@ -1,8 +1,10 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "@/i18n/LanguageProvider";
 
 const Nav = () => {
+  const { t } = useTranslation();
   const [isActive, setIsActive] = useState('about');
   const sections = useRef<NodeListOf<HTMLElement> | null>(null);
 
@@ -36,17 +38,17 @@ const Nav = () => {
       <ul>
         <li>
           <a href="#about" className={`py-3 flex items-center ${isActive === 'about'  ? 'opacity-95' : 'opacity-30'}`}>
-            About
+            {t.nav.about}
           </a>
         </li>
         <li>
           <a href="#experience" className={`py-3 flex items-center ${isActive === 'experience' ? 'opacity-95' : 'opacity-30'}`}>
-            Experience
+            {t.nav.experience}
           </a>
         </li>
         <li>
           <a href="#skills" className={`py-3 flex items-center ${isActive === 'skills' ? 'opacity-95' : 'opacity-30'}`}>
-            Skills
+            {t.nav.skills}
           </a>
         </li>
         {/* <li>

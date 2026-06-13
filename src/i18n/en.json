@@ -1,0 +1,79 @@
+{
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills"
+  },
+  "header": {
+    "role": "Software Engineer",
+    "tagline": "I craft intuitive, high-quality web experiences that help products and teams succeed."
+  },
+  "about": {
+    "title": "About",
+    "paragraphs": [
+      "I'm a Software Engineer with over 11 years of experience building modern web applications. I specialize in crafting <strong class=\"text-slate-200 font-bold\">exceptional user experiences</strong> with HTML5, CSS3, and JavaScript, backed by frameworks such as <strong class=\"text-slate-200 font-bold\">React, Vue, and Angular</strong>. I care deeply about technical excellence and stay current with the latest tools and trends across web and mobile development.",
+      "I'm a collaborative engineer with strong <strong class=\"text-slate-200 font-bold\">communication skills</strong> and a solid <strong class=\"text-slate-200 font-bold\">work ethic</strong>, always ready to take on new challenges and contribute to the <strong class=\"text-slate-200 font-bold\">success of the team and the business</strong>.",
+      "Outside of work, I enjoy going to the movies with my family, playing video games, and watching anime (proud One Piece fan 😀)."
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "viewResume": "View Full Resume",
+    "jobs": [
+      {
+        "role": "Software Engineer",
+        "company": "Disney",
+        "period": "2024 - Present",
+        "description": "Modernized large-scale Disney Cruise Line applications by migrating legacy code to Angular 18+, improving maintainability and scalability. Partnered with designers, QA, and backend engineers on the Post-Booking and Online Check-In platforms to enhance the post-reservation experience, and co-developed a reusable, accessible (WCAG) global Angular UI library shared across frontend teams. Managed complex application state with RxJS and Signal Store, built backend endpoints with Restify documented through Swagger, and served as technical lead—coordinating with Product Managers and engineers across pre- and post-production release workflows.",
+        "tech": ["Angular", "Typescript", "RxJS", "Signal Store", "Restify", "Swagger", "WCAG"]
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "Roostrap",
+        "period": "2023 - 2024",
+        "description": "Designed and implemented new features across Angular and Express.js, improving the user experience and overall system efficiency. Contributed to REST API development to ensure a seamless data flow between frontend and backend, resolved production issues to keep the platform stable, and authored clear documentation to support team collaboration and long-term maintenance.",
+        "tech": ["Typescript", "ExpressJS", "Angular", "Vue JS", "RXJS", "CSS", "JIRA"]
+      },
+      {
+        "role": "Senior Front End Engineer",
+        "company": "Globaltranz",
+        "period": "2022 - 2023",
+        "description": "Delivered new features for a large-scale React.js platform, supported backend developers, fixed defects, and helped lead a full platform redesign. Built high-quality, reusable components, integrated them across the system, and actively participated in Scrum ceremonies. Collaborated closely with the team to maintain code quality and consistently ship reliable, well-tested frontend solutions.",
+        "tech": ["Javascript", "ReactJS", "React-testing-library", "Redux", "CSS", "JIRA", "micro-frontends", "Storybook JS"]
+      },
+      {
+        "role": "Senior Front End Engineer",
+        "company": "Research Solutions",
+        "period": "2017 - 2022",
+        "description": "Led the integration of a React application with Office.js, enabling Microsoft Word users to manage citations and bibliographies. As tech lead, I drove agile delivery through development, testing, and bug verification, and established best practices and CI/CD pipelines for a scalable React architecture. Migrated legacy Angular apps to React to improve the experience after framework support ended, and worked with REST APIs from sources such as NCBI and PubMed—building and maintaining services in Node.js and Python. Planned, developed, and released scientific and non-scientific applications that expanded the platform and opened new revenue streams, collaborating with developers, QA, and scientists across multiple projects.",
+        "tech": ["Javascript", "Typescript", "Angular", "ReactJS", "Redux", "CSS", "JIRA", "Cypress JS", "Storybook JS", "CI/CD bitbucket"]
+      },
+      {
+        "role": "Full Stack Software Engineer",
+        "company": "Medicavial",
+        "period": "2013 - 2017",
+        "description": "Led the migration of a Delphi-based legacy system to a modern Angular web application, significantly improving efficiency and user experience. Built a robust API on a local IIS server integrated with SQL Server to strengthen data management, and developed an innovative medical-supply inventory app that optimized stock control in hospitals through clear visualization and early detection of shortages. Worked closely with stakeholders to align development with business needs, and guided the existing team through the migration and the adoption of new technologies to ensure a smooth transition.",
+        "tech": ["Javascript", "Angular", "PHP", "CSS", "MySQL", "Microsoft SQL Server"]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Atinet",
+        "period": "2011 - 2013",
+        "description": "Built and supported a critical web application for public accountants, improving functionality and user satisfaction while developing tailored features for a diverse client base. Implemented responsive design to enhance the mobile experience and accessibility, and contributed to migrating legacy Flash modules to HTML5. Connected the application to MySQL through PHP for more efficient data handling, resolved performance issues and bugs, and continuously researched and applied new technologies—gaining a deep understanding of how software supports business operations and growth.",
+        "tech": ["Javascript", "HTML", "CSS", "MySQL", "PHP"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "programmingLanguages": "Programming Languages",
+    "librariesFrameworks": "Libraries & Frameworks",
+    "toolsPlatforms": "Tools & Platforms"
+  }
+}
