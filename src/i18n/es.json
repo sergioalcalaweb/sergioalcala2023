@@ -1,0 +1,84 @@
+{
+  "language": {
+    "label": "Idioma",
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Habilidades"
+  },
+  "header": {
+    "role": "Ingeniero de Software",
+    "tagline": "Creo experiencias web intuitivas y de alta calidad que ayudan a productos y equipos a tener éxito."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "paragraphs": [
+      "Soy Ingeniero de Software con más de 11 años de experiencia construyendo aplicaciones web modernas. Me especializo en crear <strong class=\"text-slate-200 font-bold\">experiencias de usuario excepcionales</strong> con HTML5, CSS3 y JavaScript, apoyado en frameworks como <strong class=\"text-slate-200 font-bold\">React, Vue y Angular</strong>. Me apasiona la excelencia técnica y me mantengo al día con las últimas herramientas y tendencias del desarrollo web y móvil.",
+      "Soy un ingeniero colaborativo, con sólidas <strong class=\"text-slate-200 font-bold\">habilidades de comunicación</strong> y una fuerte <strong class=\"text-slate-200 font-bold\">ética de trabajo</strong>, siempre listo para asumir nuevos retos y contribuir al <strong class=\"text-slate-200 font-bold\">éxito del equipo y del negocio</strong>.",
+      "Fuera del trabajo, disfruto ir al cine con mi familia, jugar videojuegos y ver anime (fan orgulloso de One Piece 😀)."
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "present": "Actualidad",
+    "viewResume": "Ver currículum completo",
+    "jobs": [
+      {
+        "role": "Ingeniero de Software",
+        "company": "Disney",
+        "period": "2024 - Actualidad",
+        "description": "Modernicé aplicaciones a gran escala de Disney Cruise Line migrando código heredado a Angular 18+, mejorando la mantenibilidad y la escalabilidad. Colaboré con diseñadores, QA e ingenieros de backend en las plataformas Post-Booking y Online Check-In para mejorar la experiencia posterior a la reserva, y co-desarrollé una librería global de UI en Angular, reutilizable y accesible (WCAG), compartida entre los equipos de frontend. Gestioné estado complejo de la aplicación con RxJS y Signal Store, construí endpoints de backend con Restify documentados con Swagger, y me desempeñé como líder técnico, coordinando con Product Managers e ingenieros en los flujos de release de pre y postproducción.",
+        "tech": ["Angular", "Typescript", "RxJS", "Signal Store", "Restify", "Swagger", "WCAG"]
+      },
+      {
+        "role": "Desarrollador Full Stack",
+        "company": "Roostrap",
+        "period": "2023 - 2024",
+        "description": "Diseñé e implementé nuevas funcionalidades en Angular y Express.js, mejorando la experiencia de usuario y la eficiencia general del sistema. Colaboré en el desarrollo de APIs REST para garantizar un flujo de datos fluido entre el frontend y el backend, resolví incidencias en producción para mantener la plataforma estable y elaboré documentación clara para facilitar la colaboración del equipo y el mantenimiento a largo plazo.",
+        "tech": ["Typescript", "ExpressJS", "Angular", "Vue JS", "RXJS", "CSS", "JIRA"]
+      },
+      {
+        "role": "Ingeniero Front End Senior",
+        "company": "Globaltranz",
+        "period": "2022 - 2023",
+        "description": "Desarrollé nuevas funcionalidades para una plataforma React.js de gran escala, di soporte a los desarrolladores de backend, corregí errores y ayudé a liderar un rediseño completo de la plataforma. Construí componentes reutilizables de alta calidad, los integré en todo el sistema y participé activamente en las ceremonias de Scrum. Colaboré estrechamente con el equipo para mantener la calidad del código y entregar de forma constante soluciones de frontend fiables y bien probadas.",
+        "tech": ["Javascript", "ReactJS", "React-testing-library", "Redux", "CSS", "JIRA", "micro-frontends", "Storybook JS"]
+      },
+      {
+        "role": "Ingeniero Front End Senior",
+        "company": "Research Solutions",
+        "period": "2017 - 2022",
+        "description": "Lideré la integración de una aplicación React con Office.js, permitiendo a los usuarios de Microsoft Word gestionar citas y bibliografías. Como líder técnico, impulsé la entrega ágil a través del desarrollo, las pruebas y la verificación de errores, y establecí buenas prácticas y pipelines de CI/CD para una arquitectura React escalable. Migré aplicaciones heredadas de Angular a React para mejorar la experiencia tras el fin del soporte del framework, y trabajé con APIs REST de fuentes como NCBI y PubMed, construyendo y manteniendo servicios en Node.js y Python. Planifiqué, desarrollé y publiqué aplicaciones científicas y no científicas que ampliaron la plataforma y abrieron nuevas fuentes de ingresos, colaborando con desarrolladores, QA y científicos en múltiples proyectos.",
+        "tech": ["Javascript", "Typescript", "Angular", "ReactJS", "Redux", "CSS", "JIRA", "Cypress JS", "Storybook JS", "CI/CD bitbucket"]
+      },
+      {
+        "role": "Ingeniero de Software Full Stack",
+        "company": "Medicavial",
+        "period": "2013 - 2017",
+        "description": "Lideré la migración de un sistema heredado basado en Delphi a una aplicación web moderna en Angular, mejorando significativamente la eficiencia y la experiencia de usuario. Construí una API robusta sobre un servidor IIS local integrado con SQL Server para fortalecer la gestión de datos, y desarrollé una innovadora aplicación de inventario de insumos médicos que optimizó el control de existencias en hospitales mediante una visualización clara y la detección temprana de faltantes. Trabajé de cerca con las áreas involucradas para alinear el desarrollo con las necesidades del negocio, y guié al equipo existente en la migración y la adopción de nuevas tecnologías para asegurar una transición fluida.",
+        "tech": ["Javascript", "Angular", "PHP", "CSS", "MySQL", "Microsoft SQL Server"]
+      },
+      {
+        "role": "Ingeniero de Software",
+        "company": "Atinet",
+        "period": "2011 - 2013",
+        "description": "Construí y di soporte a una aplicación web crítica para contadores públicos, mejorando su funcionalidad y la satisfacción de los usuarios, además de desarrollar funcionalidades a medida para una base de clientes diversa. Implementé diseño responsivo para mejorar la experiencia móvil y la accesibilidad, y contribuí a la migración de módulos heredados de Flash a HTML5. Conecté la aplicación a MySQL mediante PHP para un manejo de datos más eficiente, resolví problemas de rendimiento y errores, e investigué y apliqué continuamente nuevas tecnologías, adquiriendo un profundo entendimiento de cómo el software impulsa las operaciones y el crecimiento del negocio.",
+        "tech": ["Javascript", "HTML", "CSS", "MySQL", "PHP"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "programmingLanguages": "Lenguajes de Programación",
+    "librariesFrameworks": "Librerías y Frameworks",
+    "toolsPlatforms": "Herramientas y Plataformas"
+  },
+  "notFound": {
+    "title": "Esta página zarpó fuera del mapa",
+    "message": "Ni siquiera Luffy pudo encontrar esta página en el Grand Line; debe estar escondida en otra isla. Volvamos a casa.",
+    "back": "Volver al inicio"
+  }
+}

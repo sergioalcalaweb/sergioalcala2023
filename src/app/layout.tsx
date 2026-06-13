@@ -1,18 +1,23 @@
 import "./globals.css"
 import { Lato } from "next/font/google"
-import { Metadata } from "next"
+import { Metadata, Viewport } from "next"
 import { siteConfig } from "@/config/site"
+import { LanguageProvider } from "@/i18n/LanguageProvider"
 
 const inter = Lato({ subsets: ["latin"], weight: "300" })
 
+export const viewport: Viewport = {
+  themeColor: "#1E293B",
+}
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.title,
     template: `%s - ${siteConfig.title}`,
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
-  themeColor: "#1E293B",
   authors: [
     {
       name: "Sergio Alcala",
@@ -46,7 +51,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gradient-to-r from-slate-800 to-gray-900 text-white font-light`}
       >
-        {children}
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   )
