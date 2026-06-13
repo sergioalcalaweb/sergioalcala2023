@@ -1,9 +1,13 @@
 import "./globals.css"
 import { Lato } from "next/font/google"
-import { Metadata } from "next"
+import { Metadata, Viewport } from "next"
 import { siteConfig } from "@/config/site"
 
 const inter = Lato({ subsets: ["latin"], weight: "300" })
+
+export const viewport: Viewport = {
+  themeColor: "#1E293B",
+}
 
 export const metadata: Metadata = {
   title: {
@@ -12,7 +16,6 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
-  themeColor: "#1E293B",
   authors: [
     {
       name: "Sergio Alcala",
